@@ -1,0 +1,7 @@
+{
+    "subclass": "Transportation Problem",
+    "reference": "Linear Programming and Network Flows",
+    "reference_url": "https://www.wiley.com/en-us/Linear+Programming+and+Network+Flows%2C+4th+Edition-p-9780470462720",
+    "math_formula": "$$\\begin{aligned}&\\text{Minimize } && \\sum_{i \\in \\text{Origins}} \\sum_{j \\in \\text{Destinations}} \\text{Cost}_{i,j} \\cdot \\text{Transport}_{i,j} \\\\&\\text{Subject to} && \\sum_{j \\in \\text{Destinations}} \\text{Transport}_{i,j} = \\text{Supply}_i \\quad \\forall i \\in \\text{Origins} \\\\& && \\sum_{i \\in \\text{Origins}} \\text{Transport}_{i,j} = \\text{Demand}_j \\quad \\forall j \\in \\text{Destinations} \\\\& && \\text{Transport}_{i,j} \\geq 0 \\quad \\forall i \\in \\text{Origins}, \\forall j \\in \\text{Destinations}\\end{aligned}$$",
+    "natural_language_example": "A company has three warehouses (origins) with supplies of 100, 150, and 200 units, respectively. There are four retail stores (destinations) with demands of 80, 120, 90, and 160 units, respectively. The cost of transporting one unit from each warehouse to each retail store is given. The goal is to determine the optimal transportation plan that minimizes the total transportation cost while meeting all supply and demand constraints."
+}

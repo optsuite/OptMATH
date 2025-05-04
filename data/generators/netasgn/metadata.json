@@ -1,0 +1,7 @@
+{
+    "subclass": "Assignment Problem",
+    "reference": "The Hungarian method for the assignment problem",
+    "reference_url": "https://doi.org/10.1002/nav.3800020109",
+    "math_formula": "$$\\begin{aligned}&\\text{Minimize} && \\sum_{i=1}^n \\sum_{j=1}^m \\text{Cost}_{i,j} \\times \\text{Assign}_{i,j} \\\\&\\text{Subject to} && \\sum_{j=1}^m \\text{Assign}_{i,j} = \\text{Supply}_i \\quad \\forall i = 1, 2, \\ldots, n \\\\& && \\sum_{i=1}^n \\text{Assign}_{i,j} = \\text{Demand}_j \\quad \\forall j = 1, 2, \\ldots, m \\\\& && \\text{Assign}_{i,j} \\leq \\text{Limit}_{i,j} \\quad \\forall i = 1, 2, \\ldots, n, \\forall j = 1, 2, \\ldots, m\\end{aligned}$$",
+    "natural_language_example": "A company has 5 employees and 3 projects. Each employee has a certain number of available hours (e.g., Employee A has 40 hours), and each project requires a certain number of hours (e.g., Project X requires 100 hours). The cost per hour of work for each employee on each project varies (e.g., Employee A costs $10/hour for Project X). Additionally, each employee can contribute to a project up to a maximum limit (e.g., Employee A can work a maximum of 20 hours on Project X). The goal is to assign hours from employees to projects such that the total cost is minimized, while satisfying the supply, demand, and capacity constraints."
+}

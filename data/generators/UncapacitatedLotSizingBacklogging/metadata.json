@@ -1,0 +1,7 @@
+{
+    "subclass": "Operations Optimization",
+    "reference": "Designing and Managing the Supply Chain: Concepts, Strategies, and Case Studies",
+    "reference_url": "https://www.proquest.com/openview/00c0041be240f300f396435a1794e073",
+    "math_formula": "$$\\begin{aligned}&\\text{Minimize} && \\sum_{t=1}^T \\left( F_t y_t + c_t x_t + h_t I_t + p_t B_t \\right) \\\\&\\text{Subject to} && I_{t-1} + x_t - B_{t-1} = I_t + D_t - B_t \\quad \\forall t \\in T \\\\& && x_t \\leq y_t \\cdot \\sum_{i=1}^T D_i \\quad \\forall t \\in T \\\\& && I_0 = I_T = 0 \\\\& && B_0 = B_T = 0 \\\\& && y_t \\in \\{0, 1\\}, \\quad x_t, I_t, B_t \\geq 0 \\quad \\forall t \\in T\\end{aligned}$$",
+    "natural_language_example": "A manufacturing company needs to plan its production and inventory over the next 5 months. Each month has a specific demand for products. The company can place orders in any month, incurring a fixed cost and a variable cost per unit ordered. Holding inventory incurs a cost, and unmet demand can be backlogged at a penalty cost. The goal is to determine the optimal order quantities, inventory levels, and backlogging amounts to minimize the total cost while meeting all demands by the end of the planning horizon."
+}

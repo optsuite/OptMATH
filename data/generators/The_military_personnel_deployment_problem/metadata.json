@@ -1,0 +1,7 @@
+{
+    "subclass": "Military Personnel Deployment Problem",
+    "reference": "Optimizing Military Capital Planning",
+    "reference_url": "https://www.jstor.org/stable/25062950",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Minimize} && \\sum_{i=1}^n c_i x_i \\\\\n&\\text{Subject to} && \\sum_{i=1}^n x_i \\leq a \\\\\n& && x_i \\geq \\sum_{s=1}^s k_{i,s} \\quad \\forall i = 1, 2, \\ldots, n \\\\\n& && x_i \\in \\mathbb{Z}^+ \\quad \\forall i = 1, 2, \\ldots, n\n\\end{aligned}\n$$",
+    "natural_language_example": "A military commander needs to deploy soldiers to 5 different tasks, such as securing border areas, conducting reconnaissance missions, and providing disaster relief. Each task requires soldiers with specific skills, and the total number of soldiers available is 50. The goal is to minimize the total cost of deployment while ensuring that each task meets its skill requirements and the total number of deployed soldiers does not exceed the available pool."
+}

@@ -1,0 +1,7 @@
+{
+    "subclass": "Profit Maximization Problem",
+    "reference": "Introduction to operations research",
+    "reference_url": "https://thuvienso.hoasen.edu.vn/handle/123456789/8952",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Maximize} && \\sum_{j=1}^m c_j X_j \\\\\n&\\text{Subject to} && \\sum_{j=1}^m \\frac{1}{a_j} X_j \\leq b \\\\\n& && 0 \\leq X_j \\leq u_j \\quad \\forall j = 1, 2, \\ldots, m\n\\end{aligned}\n$$",
+    "natural_language_example": "A company produces multiple products, each with a specific profit margin (c_j), resource usage (1/a_j), and production capacity limit (u_j). The company aims to maximize its total profit while ensuring that the total resource usage does not exceed a given budget (b). The decision variables (X_j) represent the quantity of each product to produce, constrained by their respective production limits."
+}

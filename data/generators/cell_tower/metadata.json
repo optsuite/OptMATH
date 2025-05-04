@@ -1,0 +1,7 @@
+{
+    "subclass": "Facility Location Problem (FLP)",
+    "reference": "The Location of Emergency Service Facilities",
+    "reference_url": "https://doi.org/10.1287/opre.19.6.1363",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Maximize} && \\sum_{j \\in \\text{Region}} \\text{Population}_j \\times \\text{Covered}_j \\\\\n&\\text{Subject to} && \\sum_{i \\in \\text{Tower}} \\text{Delta}_{i,j} \\times \\text{Build}_i \\geq \\text{Covered}_j \\quad \\forall j \\in \\text{Region} \\\\\n& && \\sum_{i \\in \\text{Tower}} \\text{Cost}_i \\times \\text{Build}_i \\leq \\text{Budget} \\\\\n& && \\text{Build}_i \\in \\{0, 1\\} \\quad \\forall i \\in \\text{Tower} \\\\\n& && \\text{Covered}_j \\in \\{0, 1\\} \\quad \\forall j \\in \\text{Region}\n\\end{aligned}\n$$",
+    "natural_language_example": "A telecom company needs to build a set of cell towers to provide signal coverage for the inhabitants of a city. There are 10 potential tower sites and 20 regions to cover. Each tower has a setup cost, and each region has a known population. The company has a limited budget and wants to maximize the total population covered by the towers. The goal is to decide which towers to build to provide coverage to as many people as possible without exceeding the budget."
+}

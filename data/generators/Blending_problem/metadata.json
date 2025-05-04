@@ -1,0 +1,7 @@
+{
+    "subclass": "Blending Problem",
+    "reference": "Operations Research: Applications and Algorithms",
+    "reference_url": "https://api.semanticscholar.org/CorpusID:122790857",
+     "math_formula": "### Mathematical Model\nSuppose we have:\n- Set of alloys A = {1,...,n}\n- Set of elements E = {1,...,m}\n- p_{ea}: Percentage of element e in alloy a\n- d_e: Desired percentage of element e in final blend\n- c_a: Cost per unit of alloy a\n- x_a: Amount of alloy a to purchase\n\n$$\n\\begin{aligned}\n&\\text{Minimize} && \\sum_{a \\in A} c_a x_a \\\\\n&\\text{Subject to} && \\sum_{a \\in A} p_{ea} x_a = d_e && \\forall e \\in E \\\\\n& && \\sum_{a \\in A} x_a = 1 \\\\\n& && x_a \\geq 0 && \\forall a \\in A\n\\end{aligned}\n$$",
+    "natural_language_example": "A steel manufacturer needs to produce a specific grade of steel that requires certain percentages of different elements like carbon, manganese, and silicon. They can purchase different types of alloys available in the market, each containing different proportions of these elements. For example:\n* Alloy 1: 0.4% carbon, 1.2% manganese, 0.6% silicon, cost $800/ton\n* Alloy 2: 0.6% carbon, 0.8% manganese, 0.3% silicon, cost $900/ton\n* Alloy 3: 0.3% carbon, 1.5% manganese, 0.4% silicon, cost $750/ton\n\nThe desired final steel composition is:\n* Carbon: 0.45%\n* Manganese: 1.1%\n* Silicon: 0.5%\n\nThe manufacturer needs to determine how much of each alloy to purchase to achieve the desired composition while minimizing the total cost. The sum of all purchased alloys must equal one ton."
+}

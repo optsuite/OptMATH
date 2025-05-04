@@ -1,0 +1,7 @@
+{
+    "subclass": "Revenue Maximization Problem",
+    "reference": "Forecasting and control of passenger bookings",
+    "reference_url": "https://doi.org/10.1057/palgrave.rpm.5170134",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Maximize} && \\sum_{p \\in \\text{Packages}} \\text{Revenue}_p \\times \\text{Sell}_p \\\\\n&\\text{Subject to} && \\text{Sell}_p \\leq \\text{Demand}_p \\quad \\forall p \\in \\text{Packages} \\\\\n& && \\sum_{p \\in \\text{Packages}} \\Delta_{p,r} \\times \\text{Sell}_p \\leq \\text{AvailableSeats}_r \\quad \\forall r \\in \\text{FlightLegs} \\\\\n& && \\text{Sell}_p \\in \\mathbb{Z}^+ \\quad \\forall p \\in \\text{Packages}\n\\end{aligned}\n$$",
+    "natural_language_example": "An airline has a set of flight legs (e.g., New York to Chicago) with limited passenger capacity. They offer various flight packages (e.g., round-trip tickets with specific itineraries) at different prices. Each package has an estimated demand. The goal is to determine how many units of each package to sell to maximize total revenue, while ensuring that the total number of seats used on each flight leg does not exceed the available capacity."
+}

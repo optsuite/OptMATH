@@ -1,0 +1,7 @@
+{
+    "subclass": "Lot-Sizing Problem",
+    "reference": "Wagner, H. M., & Whitin, T. M. (1958). Dynamic version of the economic lot size model.",
+    "reference_url": "https://doi.org/10.1287/mnsc.5.1.89",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Minimize} && \\sum_{t=1}^T \\left( F_t y_t + c_t x_t + h_t I_t \\right) \\\\\n&\\text{Subject to} && I_{t-1} + x_t = I_t + D_t \\quad \\forall t \\in T \\\\\n& && x_t \\leq y_t \\cdot \\sum_{i=1}^T D_i \\quad \\forall t \\in T \\\\\n& && I_0 = 0, \\quad I_T = 0 \\\\\n& && y_t \\in \\{0, 1\\}, \\quad x_t \\geq 0, \\quad I_t \\geq 0 \\quad \\forall t \\in T\n\\end{aligned}\n$$",
+    "natural_language_example": "A manufacturing company needs to plan production over the next 5 months to meet customer demands while minimizing costs. Each month has a specific demand, and the company incurs fixed costs for setting up production, variable costs for producing each unit, and holding costs for storing inventory. The goal is to determine when to produce and how much to produce in each month to meet demand without exceeding the budget."
+}

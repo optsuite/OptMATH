@@ -1,0 +1,7 @@
+{
+    "subclass": "MarketShare",
+    "reference":"Cooper, L. G. (1993). Market-share models. *Handbooks in operations research and management science*, *5*, 259-314.",
+    "reference_url": "https://escholarship.org/content/qt1gk2z67m/qt1gk2z67m_noSplash_3fabc6d7de059914e4c306fc58649c48.pdf",
+    "math_formula": "# Market Allocation Problem Mathematical Formulation\n## Sets and Indices\n- $I$: Set of companies, $i \\in I$\n- $J$: Set of markets, $j \\in J$\n- $K$: Set of products, $k \\in K$\n## Parameters\n- $d_{jk}$: Demand of market $j$ for product $k$\n- $c_{ijk}$: Unit cost for company $i$ to supply product $k$ to market $j$\n- $r_{ijk}$: Unit revenue for company $i$ selling product $k$ in market $j$\n## Decision Variables\n- $x_{ijk}$: Quantity of product $k$ supplied by company $i$ to market $j$ (continuous)\n## Objective Function\nMaximize total profit:\n$$\\max \\sum_{i\\in I}\\sum_{j\\in J}\\sum_{k\\in K} (r_{ijk} - c_{ijk})x_{ijk}$$\n## Constraints\n1. Demand Satisfaction:\n$$\\sum_{i\\in I} x_{ijk} = d_{jk} \\quad \\forall j\\in J, \\forall k\\in K$$\n2. Non-negativity:\n$$x_{ijk} \\geq 0 \\quad \\forall i\\in I, \\forall j\\in J, \\forall k\\in K$$",
+    "natural_language_example": ""
+}

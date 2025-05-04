@@ -1,0 +1,7 @@
+{
+    "subclass": "Linear Programming",
+    "reference": "Stigler's Diet Problem Revisited",
+    "reference_url": "https://doi.org/10.1287/opre.49.1.1.11187",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Minimize} && \\sum_{j \\in \\text{Foods}} \\text{Cost}_j \\cdot \\text{Buy}_j \\\\\n&\\text{Subject to} && \\text{MinNutrient}_i \\leq \\sum_{j \\in \\text{Foods}} \\text{NutrientAmount}_{i,j} \\cdot \\text{Buy}_j \\leq \\text{MaxNutrient}_i \\quad \\forall i \\in \\text{Nutrients} \\\\\n& && \\text{MinAmount}_j \\leq \\text{Buy}_j \\leq \\text{MaxAmount}_j \\quad \\forall j \\in \\text{Foods}\n\\end{aligned}\n$$",
+    "natural_language_example": "A hospital needs to plan a diet for patients that meets specific nutritional requirements while minimizing the cost of purchasing food. The diet must include at least 10 units of protein, 20 units of carbohydrates, and 5 units of fat, but no more than 50 units of protein, 100 units of carbohydrates, and 30 units of fat. The hospital can choose from a variety of foods, each with a specific cost, nutrient content, and purchase limits. The goal is to determine the optimal amount of each food to buy to meet the nutritional requirements at the lowest cost."
+}

@@ -1,0 +1,7 @@
+{
+    "subclass": "Production Planning Problem",
+    "reference": "Optimizing the Supply Chain Configuration for New Products",
+    "reference_url": "https://doi.org/10.1287/mnsc.1050.0367",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Minimize} && \\sum_{m \\in M} \\sum_{f \\in F} \\left( a_f \\cdot z_{m,f} + c_f \\cdot x_{m,f} \\right) \\\\\n&\\text{Subject to} && x_{m,f} \\geq l_f \\cdot z_{m,f} \\quad \\forall m \\in M, f \\in F \\\\\n& && x_{m,f} \\leq u_f \\cdot z_{m,f} \\quad \\forall m \\in M, f \\in F \\\\\n& && \\sum_{f \\in F} x_{m,f} \\geq d_m \\quad \\forall m \\in M \\\\\n& && z_{m,f} \\in \\{0, 1\\} \\quad \\forall m \\in M, f \\in F\n\\end{aligned}\n$$",
+    "natural_language_example": "A manufacturing company operates 3 factories over 6 months. Each factory has a fixed cost to run, a minimum and maximum production level, and a unit production cost. The company must decide which factories to operate each month and how much to produce to meet monthly demand while minimizing total costs. For example, if the demand for a month is 500 units, the company must ensure that the total production across all factories meets or exceeds this demand, while respecting the production constraints and minimizing costs."
+}

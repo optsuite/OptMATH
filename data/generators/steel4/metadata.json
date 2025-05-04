@@ -1,0 +1,7 @@
+{
+    "subclass": "Production Planning Problem",
+    "reference": "Operations Research in Production Planning, Scheduling and Inventory Control",
+    "reference_url": "https://doi.org/10.1057/jors.1975.120",
+    "math_formula": "Maximize \n$$\n\\sum_{p \\in \\text{Products}} \\text{Profit}_{p} \\cdot \\text{Production}_{p}\n$$\nSubject to:\n$$\n\\sum_{p \\in \\text{Products}} \\left( \\frac{1}{\\text{Rate}_{p,s}} \\cdot \\text{Production}_{p} \\right) \\leq \\text{Available}_{s} \\quad \\forall s \\in \\text{Stages}\n$$\n$$\n\\text{Commit}_{p} \\leq \\text{Production}_{p} \\quad \\forall p \\in \\text{Products}\n$$\n$$\n\\text{Production}_{p} \\leq \\text{Market}_{p} \\quad \\forall p \\in \\text{Products}\n$$",
+    "natural_language_example": "A manufacturing company produces three products (A, B, C) using two stages (Stage 1 and Stage 2). Each product has a specific production rate in each stage, a profit per ton, a minimum production commitment, and a maximum market demand. The company aims to maximize its total profit while ensuring that the total hours used in each stage do not exceed the available hours, and the production quantities meet the minimum commitments and do not exceed market demands."
+}

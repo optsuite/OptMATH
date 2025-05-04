@@ -1,0 +1,7 @@
+{
+    "subclass": "Linear Programming",
+    "reference": "Stigler's Diet Problem Revisited",
+    "reference_url": "https://doi.org/10.1287/opre.49.1.1.11187",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Minimize} && \\sum_{j=1}^m c_j x_j \\\\\n&\\text{Subject to} && \\sum_{j=1}^m a_{i,j} x_j \\geq l_i \\quad \\forall i \\in \\text{MinRequirements} \\\\\n& && \\sum_{j=1}^m a_{i,j} x_j \\leq u_i \\quad \\forall i \\in \\text{MaxRequirements} \\\\\n& && x_j \\geq 0 \\quad \\forall j = 1, 2, \\ldots, m\n\\end{aligned}\n$$",
+    "natural_language_example": "A hospital needs to plan a diet for patients that meets specific nutritional requirements while minimizing the cost. The diet includes foods like bread, milk, and eggs, each with different costs and nutrient contents. The goal is to determine the optimal amount of each food to buy so that the total cost is minimized, while ensuring that the patients receive at least the minimum required amount of each nutrient and no more than the maximum allowed amount."
+}

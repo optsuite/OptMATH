@@ -1,0 +1,7 @@
+{
+    "subclass": "Production Planning Problem",
+    "reference": "Operations Research in Production Planning, Scheduling and Inventory Control",
+    "reference_url": "https://doi.org/10.1057/jors.1975.120",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Maximize} && \\sum_{p=1}^n c_p x_p \\\\\n&\\text{Subject to} && \\sum_{p=1}^n \\frac{x_p}{r_p} \\leq H \\\\\n& && x_p \\geq \\text{min}_p \\quad \\forall p = 1, 2, \\ldots, n \\\\\n& && x_p \\leq \\text{max}_p \\quad \\forall p = 1, 2, \\ldots, n\n\\end{aligned}\n$$",
+    "natural_language_example": "A factory produces three types of steel products: A, B, and C. Each product has a production rate (tons per hour), a profit per ton, and constraints on the minimum and maximum tons that must be sold. The factory has 168 hours available in a week. The goal is to determine how many tons of each product to produce to maximize total profit while ensuring that the total production time does not exceed the available hours and that the production quantities are within the specified sales limits."
+}

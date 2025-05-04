@@ -1,0 +1,7 @@
+{
+    "subclass": "Network Optimization",
+    "reference": "Faster algorithms for the shortest path problem",
+    "reference_url": "https://apps.dtic.mil/sti/pdfs/ADA194031.pdf",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Minimize} && \\sum_{(i,j) \\in E} a_{i,j} \\cdot x_{i,j} \\\\\n&\\text{Subject to} && \\sum_{j \\in N \\mid (i,j) \\in E} x_{i,j} - \\sum_{k \\in N \\mid (k,i) \\in E} x_{k,i} = b_i \\quad \\forall i \\in N \\\\\n& && x_{i,j} \\in \\{0, 1\\} \\quad \\forall (i,j) \\in E\n\\end{aligned}\n$$",
+    "natural_language_example": "Suppose you are planning a road trip from City A to City B. Each road between cities has a specific travel time (cost). The goal is to find the route from City A to City B that minimizes the total travel time. This is an example of the Shortest Path Problem, where cities are nodes, roads are arcs, and travel times are arc costs."
+}

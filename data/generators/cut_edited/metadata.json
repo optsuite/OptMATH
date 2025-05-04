@@ -1,0 +1,7 @@
+{
+    "subclass": "Cutting Stock Problem",
+    "reference": "Gilmore, P. C., & Gomory, R. E. (1961). A linear programming approach to the cutting-stock problem. Operations Research, 9(6), 849-859.",
+    "reference_url": "https://doi.org/10.1287/opre.9.6.849",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Minimize} && \\sum_{j \\in \\text{Patterns}} \\text{Cut}_j \\\\\n&\\text{Subject to} && \\sum_{j \\in \\text{Patterns}} \\text{NumRollsWidth}_{i,j} \\cdot \\text{Cut}_j \\geq \\text{Orders}_i \\quad \\forall i \\in \\text{Width} \\\\\n& && \\sum_{i \\in \\text{Width}} i \\cdot \\text{NumRollsWidth}_{i,j} \\leq \\text{RollWidth} \\quad \\forall j \\in \\text{Patterns} \\\\\n& && \\text{Cut}_j \\in \\mathbb{Z}_+ \\quad \\forall j \\in \\text{Patterns}\n\\end{aligned}\n$$",
+    "natural_language_example": "A paper mill has a raw roll of width 100 units. It needs to cut smaller rolls of widths 20, 30, and 40 units, with orders of 50, 30, and 20 rolls respectively. The mill has 10 cutting patterns, each specifying how many rolls of each width can be cut from a raw roll. The goal is to minimize the number of raw rolls used while meeting all orders and ensuring that the total width of rolls in each pattern does not exceed 100 units."
+}

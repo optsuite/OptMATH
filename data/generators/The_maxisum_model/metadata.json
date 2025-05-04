@@ -1,0 +1,7 @@
+{
+    "subclass": "Facility Dispersion Problem",
+    "reference": "Programming models for facility dispersion: the p-dispersion and maxisum dispersion problems",
+    "reference_url": "https://doi.org/10.1016/0895-7177(88)90094-5",
+    "math_formula": "$$\n\\begin{aligned}\n&\\text{Maximize} && \\sum_{i \\in N} \\sum_{j \\in N} d_{i,j} \\cdot z_{i,j} \\\\\n&\\text{Subject to} && \\sum_{i \\in N} x_i = p \\\\\n& && z_{i,j} \\leq x_i \\quad \\forall i, j \\in N \\\\\n& && z_{i,j} \\leq x_j \\quad \\forall i, j \\in N \\\\\n& && z_{i,j} \\geq x_i + x_j - 1 \\quad \\forall i, j \\in N \\\\\n& && x_i \\in \\{0, 1\\} \\quad \\forall i \\in N \\\\\n& && z_{i,j} \\in \\{0, 1\\} \\quad \\forall i, j \\in N\n\\end{aligned}\n$$",
+    "natural_language_example": "Suppose there are 10 potential locations for placing facilities, and we need to select 3 facilities such that the sum of distances between all pairs of selected facilities is maximized. The distances between locations are predefined, and the goal is to ensure that the selected facilities are as dispersed as possible to minimize their influence on each other."
+}
