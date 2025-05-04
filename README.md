@@ -7,8 +7,8 @@
   <a href="https://huggingface.co/datasets/Aurora-Gem/OptMATH-Train">
     <img src="https://img.shields.io/badge/🤗-Dataset-ffb7c5" alt="Dataset">
   </a>
-  <a href="https://github.com/AuroraLHL/OptMATH/stargazers">
-    <img src="https://img.shields.io/github/stars/AuroraLHL/OptMATH?style=social" alt="GitHub stars">
+  <a href="https://github.com/optsuite/OptMATH/stargazers">
+    <img src="https://img.shields.io/github/stars/optsuite/OptMATH?style=social" alt="GitHub stars">
   </a>
 </p>
 
