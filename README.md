@@ -72,8 +72,8 @@ As shown in the figure below, the performance of Qwen2.5-1.5B across different b
 ```
 @misc{lu2025optmathscalablebidirectionaldata,
       title={OptMATH: A Scalable Bidirectional Data Synthesis Framework for Optimization Modeling}, 
-      author={Hongliang Lu and Zhonglin Xie and Yaoyu Wu 
-      and Can Ren and Yuxuan Chen and Zaiwen Wen},
+      author={Hongliang Lu and Zhonglin Xie and Yaoyu Wu and Can Ren and 
+              Yuxuan Chen and Zaiwen Wen},
       year={2025},
       eprint={2502.11102},
       archivePrefix={arXiv},
