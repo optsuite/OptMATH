@@ -70,11 +70,14 @@ As shown in the figure below, the performance of Qwen2.5-1.5B across different b
 ## Citation
 
 ```
-@inproceedings{Lu2025OptMATHAS,
-  title={OptMATH: A Scalable Bidirectional Data Synthesis Framework for Optimization Modeling},
-  author={Hongliang Lu and Zhonglin Xie and Yaoyu Wu and Can Ren and Yuxuan Chen and Zaiwen Wen},
-  year={2025},
-  url={https://api.semanticscholar.org/CorpusID:276407996}
+@misc{lu2025optmathscalablebidirectionaldata,
+      title={OptMATH: A Scalable Bidirectional Data Synthesis Framework for Optimization Modeling}, 
+      author={Hongliang Lu and Zhonglin Xie and Yaoyu Wu and Can Ren and Yuxuan Chen and Zaiwen Wen},
+      year={2025},
+      eprint={2502.11102},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2502.11102}, 
 }
 ```
 
@@ -85,4 +88,3 @@ We hope that the package is useful for your application. If you have any bug rep
 - Hongliang Lu,  lhl@pku.edu.cn.
 - Zhonglin Xie, [zlxie@pku.edu.cn](mailto:zlxie@pku.edu.cn)
 - Zaiwen Wen, [wenzw@pku.edu.cn](mailto:wenzw@pku.edu.cn)
-
