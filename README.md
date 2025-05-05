@@ -80,4 +80,9 @@ As shown in the figure below, the performance of Qwen2.5-1.5B across different b
 
 ## Contact
 
-For any questions or concerns, please open an issue or contact lhl@pku.edu.cn.
+We hope that the package is useful for your application. If you have any bug reports or comments, please feel free to email one of the toolbox authors:
+
+- Hongliang Lu,  lhl@pku.edu.cn.
+- Zhonglin Xie, [zlxie@pku.edu.cn](mailto:zlxie@pku.edu.cn)
+- Zaiwen Wen, [wenzw@pku.edu.cn](mailto:wenzw@pku.edu.cn)
+
