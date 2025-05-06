@@ -1,14 +1,17 @@
 # OptMATH: A Scalable Bidirectional Data Synthesis Framework for Optimization Modeling
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2502.11102">
-    <img src="https://img.shields.io/badge/📑_Paper-arXiv:2502.11102-b31b1b" alt="Paper">
+  <a href="https://arxiv.org/abs/2502.11102" style="display: inline-flex; align-items: center; padding: 8px 12px; border-radius: 4px; background-color: #b31b1b; color: white; text-decoration: none;">
+    <span style="margin-right: 8px;">📑</span> Paper
   </a>
-  <a href="https://huggingface.co/datasets/Aurora-Gem/OptMATH-Train">
-    <img src="https://img.shields.io/badge/🤗-Dataset-ffb7c5" alt="Dataset">
+  <a href="https://huggingface.co/datasets/Aurora-Gem/OptMATH-Train" style="display: inline-flex; align-items: center; padding: 8px 12px; border-radius: 4px; background-color: #ffb7c5; color: black; text-decoration: none; margin-left: 8px;">
+    <span style="margin-right: 8px;">🤗</span> Dataset
   </a>
-  <a href="https://github.com/optsuite/OptMATH/stargazers">
-    <img src="https://img.shields.io/github/stars/optsuite/OptMATH?style=social" alt="GitHub stars">
+  <a href="https://github.com/optsuite/OptMATH/stargazers" style="display: inline-flex; align-items: center; padding: 8px 12px; border-radius: 4px; background-color: #24292e; color: white; text-decoration: none; margin-left: 8px;">
+    <span style="margin-right: 8px;">⭐</span> GitHub Stars
+  </a>
+   <a href="https://auroralhl.github.io/projects/optmath/" style="display: inline-flex; align-items: center; padding: 8px 12px; border-radius: 4px; background-color: #1769ff; color: white; text-decoration: none; margin-left: 8px;">
+    <span style="margin-right: 8px;">🌐</span> Website
   </a>
 </p>
 
@@ -70,15 +73,11 @@ As shown in the figure below, the performance of Qwen2.5-1.5B across different b
 ## Citation
 
 ```
-@misc{lu2025optmathscalablebidirectionaldata,
-      title={OptMATH: A Scalable Bidirectional Data Synthesis Framework for Optimization Modeling}, 
-      author={Hongliang Lu and Zhonglin Xie and Yaoyu Wu and Can Ren and 
-              Yuxuan Chen and Zaiwen Wen},
-      year={2025},
-      eprint={2502.11102},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2502.11102}, 
+@inproceedings{Lu2025OptMATHAS,
+  title={OptMATH: A Scalable Bidirectional Data Synthesis Framework for Optimization Modeling},
+  author={Hongliang Lu and Zhonglin Xie and Yaoyu Wu and Can Ren and Yuxuan Chen and Zaiwen Wen},
+  year={2025},
+  url={https://api.semanticscholar.org/CorpusID:276407996}
 }
 ```
 
@@ -89,3 +88,4 @@ We hope that the package is useful for your application. If you have any bug rep
 - Hongliang Lu,  lhl@pku.edu.cn.
 - Zhonglin Xie, [zlxie@pku.edu.cn](mailto:zlxie@pku.edu.cn)
 - Zaiwen Wen, [wenzw@pku.edu.cn](mailto:wenzw@pku.edu.cn)
+
