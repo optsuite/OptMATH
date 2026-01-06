@@ -2,19 +2,19 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2502.11102">
-    <img src="https://img.shields.io/badge/📑_Paper-arXiv:2502.11102-b31b1b" alt="Paper Badge">
+    <img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv%3A2502.11102-b31b1b?style=flat-square&logo=arxiv&logoColor=white">
   </a>
   <a href="https://huggingface.co/datasets/Aurora-Gem/OptMATH-Train">
-    <img src="https://img.shields.io/badge/🤗-Dataset-ffb7c5" alt="Dataset Badge">
+    <img alt="Dataset" src="https://img.shields.io/badge/Dataset-OptMATH--Train-ffb7c5?style=flat-square&logo=huggingface&logoColor=black">
   </a>
   <a href="https://huggingface.co/Aurora-Gem/models">
-    <img src="https://img.shields.io/badge/🤗-Models-ffb7c5" alt="Models Badge">
+    <img alt="Models" src="https://img.shields.io/badge/Models-Hugging%20Face-ffb7c5?style=flat-square&logo=huggingface&logoColor=black">
   </a>
   <a href="https://github.com/optsuite/OptMATH/stargazers">
-    <img src="https://img.shields.io/github/stars/optsuite/OptMATH?style=social" alt="GitHub Stars Badge">
+    <img alt="Stars" src="https://img.shields.io/github/stars/optsuite/OptMATH?style=flat-square&logo=github&label=Stars">
   </a>
   <a href="https://auroralhl.github.io/projects/optmath/">
-    <img src="https://img.shields.io/badge/🌐_Website-1769ff" alt="Website Badge">
+    <img alt="Website" src="https://img.shields.io/badge/Website-Project-1769ff?style=flat-square&logo=googlechrome&logoColor=white">
   </a>
 </p>
 
