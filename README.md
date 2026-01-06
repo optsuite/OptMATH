@@ -7,6 +7,9 @@
   <a href="https://huggingface.co/datasets/Aurora-Gem/OptMATH-Train">
     <img src="https://img.shields.io/badge/🤗-Dataset-ffb7c5" alt="Dataset Badge">
   </a>
+  <a href="https://huggingface.co/Aurora-Gem/models">
+    <img src="https://img.shields.io/badge/🤗-Models-ffb7c5" alt="Models Badge">
+  </a>
   <a href="https://github.com/optsuite/OptMATH/stargazers">
     <img src="https://img.shields.io/github/stars/optsuite/OptMATH?style=social" alt="GitHub Stars Badge">
   </a>
@@ -23,6 +26,12 @@ OptMATH is a scalable framework for synthesizing high-quality optimization model
 2. Creates natural language (NL) descriptions through backtranslation
 3. Validates the correspondence between NL and PD through forward modeling and rejection sampling
    ![Framework Overview](assets/pipeline.png)
+
+## News
+
+- **2026/01/06**-Released OptMATH models on Hugging Face: https://huggingface.co/Aurora-Gem/models
+- **2025/05/01** - Our paper has been accepted as a poster presentation at **ICML 2025**!
+- **2025/02/21** - We have released our 200K training dataset (OptMATH-Train) and OptMATH-Bench.
 
 ## Key Features
 
@@ -89,4 +98,3 @@ We hope that the package is useful for your application. If you have any bug rep
 - Hongliang Lu,  lhl@pku.edu.cn.
 - Zhonglin Xie, [zlxie@pku.edu.cn](mailto:zlxie@pku.edu.cn)
 - Zaiwen Wen, [wenzw@pku.edu.cn](mailto:wenzw@pku.edu.cn)
-
