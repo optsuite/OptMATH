@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optmath"
+version = "1.0.0"
+description = "OptMATH"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Hongliang Lu", email = "lhl@pku.edu.cn"}]
+dependencies = [
+    "pyyaml>=6.0",
+    "tqdm>=4.65.0",
+    "jinja2>=3.1.0",
+    "openai>=1.0.0",
+    "litellm>=1.50.0",
+    "datasets>=2.0.0",
+    "colorama>=0.4.6",
+    "gurobipy>=10.0.0,<12.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "pytest-asyncio>=0.21",
+]
+
+[project.scripts]
+optmath = "optmath.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["optmath*", "eval*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

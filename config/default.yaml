@@ -1,0 +1,64 @@
+# OptMATH Default Configuration
+# Override via environment variables and CLI arguments
+
+llm:
+  default_model: "deepseek_official"
+  providers:
+    # DeepSeek official
+    deepseek_official:
+      model: "deepseek-chat"
+      base_url: "https://api.deepseek.com/v1"
+      api_key_env: "LHL_DEEPSEEK_KEY"
+    # OpenAI
+    gpt:
+      model: "gpt-4o"
+      base_url: null
+      api_key_env: "OPENAI_API_KEY"
+    # Anthropic (LiteLLM native support)
+    claude:
+      model: "claude-3-5-sonnet-20241022"
+      base_url: null
+      api_key_env: "ANTHROPIC_API_KEY"
+    # Google Gemini (LiteLLM native support)
+    gemini:
+      model: "gemini/gemini-2.5-pro-preview-03-25"
+      base_url: null
+      api_key_env: "GEMINI_API_KEY"
+    # MiniMax
+    minimax:
+      model: "mini-max"
+      base_url: null
+      api_key_env: "MINIMAX_API_KEY"
+
+instance_generation:
+  base_dir: "generators"  # Generator directory, relative to project root or absolute path
+  num_instances: 2500
+  max_iter: 3000
+  var_num_max: 50
+  constraint_num_max: 100
+  num_workers: null  # null means use CPU core count
+  output_file: "output/instances.json"
+
+backtranslation:
+  model_name: "deepseek_official"
+  max_workers: 4
+  batch_size: 10
+  max_iter: 3
+  sample_size: 100
+  temperature: 0.8
+
+modeling:
+  model_name: "deepseek_official"
+  num_workers: 100
+  temperature: 0.8
+
+evaluation:
+  timeout: 100
+  max_workers: 50
+  numerical_tolerance: 0.05
+  question_field: "en_question"
+  answer_field: "en_answer"
+
+logging:
+  level: "INFO"
+  dir: "logs"

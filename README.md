@@ -27,6 +27,11 @@ OptMATH is a scalable framework for synthesizing high-quality optimization model
 3. Validates the correspondence between NL and PD through forward modeling and rejection sampling
    ![Framework Overview](assets/pipeline.png)
 
+## Installation & Quick Start
+
+For setup, environment requirements, tests, and runnable examples, see [quick_start.md](quick_start.md).
+Benchmark evaluation now uses the `eval/` implementation directly, with conversion fallback enabled by default.
+
 ## News
 
 - **2026/01/06**-Released OptMATH models on Hugging Face: https://huggingface.co/Aurora-Gem/models
@@ -82,12 +87,14 @@ As shown in the figure below, the performance of Qwen2.5-1.5B across different b
 ## Citation
 
 ```
-@inproceedings{Lu2025OptMATHAS,
+@inproceedings{lu2025optmath,
   title={OptMATH: A Scalable Bidirectional Data Synthesis Framework for Optimization Modeling},
-  author={Hongliang Lu and Zhonglin Xie and Yaoyu Wu and Can Ren 
-          and Yuxuan Chen and Zaiwen Wen},
+  author={Lu, Hongliang and Xie, Zhonglin and Wu, Yaoyu 
+          and Ren,Can and Chen, Yuxuan and Wen, Zaiwen},
+  booktitle={International Conference on Machine Learning},
+  pages={40769--40802},
   year={2025},
-  url={https://api.semanticscholar.org/CorpusID:276407996}
+  organization={PMLR}
 }
 ```
 
