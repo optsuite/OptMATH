@@ -13,7 +13,7 @@
   <a href="https://github.com/optsuite/OptMATH/stargazers">
     <img alt="Stars" src="https://img.shields.io/github/stars/optsuite/OptMATH?style=flat-square&logo=github&label=Stars">
   </a>
-  <a href="https://auroralhl.github.io/projects/optmath/">
+  <a href="https://auroralhl.github.io/assets/projects/optmath/">
     <img alt="Website" src="https://img.shields.io/badge/Website-Project-1769ff?style=flat-square&logo=googlechrome&logoColor=blue">
   </a>
 </p>
